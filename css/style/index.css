@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+
 body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     /* background: #000000; */
     background-color: rgb(1, 5, 13);
     color: #ffffff;
-    font-family: 'ITF Devanagari Marathi', cursive;
+    font-family: "Tiro Devanagari Marathi", cursive;
 }
 
 body::before {
     content: "";
-    background-image: url('../imagens/bg-image.png');
+    background-image: url('../../imagens/bg-image.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,7 +29,7 @@ main{
     justify-content: center;
 }
  .logo{
-    height: 80px;
+    height: 70px;
     padding: 25px;
  }
  .logo img{
@@ -75,8 +77,8 @@ main{
 }
 
 .input-checkbox {
-    margin: 30px;
-    padding-left: 30px;
+    margin: 25px;
+    padding-left: 10px;
     
 }
 
@@ -105,8 +107,4 @@ main{
 .input-checkbox input {
     width: 20px;
     height: 15px;
-}
-
-.input-checkbox span {
-    color: gray;
 }

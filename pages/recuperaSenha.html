@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recuperar Senha</title>
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/recuperarSenha.css">
+    <link rel="stylesheet" href="../css/style/recuperarSenha.css">
+      
+    <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/addons/cleave-phone.br.js"></script>
+
 
 </head>
 <body>
@@ -20,22 +24,25 @@
             <div class="container-input-radio">  
             <label for="email-sms">  
                 <span class="checkmark"></span>
-                <input type="radio" name="email-sms" id="selected" checked> Emai
+                <input type="radio" name="email-sms" class="selected" value="email" checked> Email
             </label>
             <label for="email-sms">
                 <span class="checkmark"></span>
-                <input type="radio" name="email-sms" id="selected"> Mensagem de texto
+                <input type="radio" name="email-sms" class="selected" value="sms"> Mensagem de texto
             </label>
             </div>
 
-        <p>Enviaremos um email com instruçoes para redefinir sua senha</p>
-        <div>
-            <input type="text" placeholder="nome@exemplo.com.br">
-            <button>Enviar por email</button>
+        <p class="paragrafo-dinamico">Enviaremos um email com instruções de como redefinir sua senha</p>
+
+        <div class="conteiner-email-button">
+            <input type="text" placeholder="nome@exemplo.com.br" class="email-sms-enviar">
+            <button class="botao-enviar">Enviar por email</button>
         </div>
         </form>
 </main>
     </div>
     
 </body>
+<script src="../js/recuperarSenha.js"></script> 
+
 </html>

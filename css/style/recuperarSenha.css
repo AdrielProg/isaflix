@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+
+body{
+    background: black;
+    color: white;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    align-items:center;   
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+.cotainer-mudar-senha{
+    background:  hwb(0 90% 16%);
+    color: #6F6F6F;
+    height: 460px;
+    width: 420px;
+    padding: 35px;
+    border-radius: 10px;
+    border-style: hidden;
+    font-family: "Tiro Devanagari Marathi", cursive;
+    font-size: 0.9em;
+
+}
+.cotainer-mudar-senha h2{
+    color: black;
+    font-size: 2em;
+    /* text-align: center; */
+    padding: 15px 15px 5px 15px;
+}
+
+.cotainer-mudar-senha p{
+    font-size: 1.1em;
+    padding-left: 15px;
+}
+
+.logo-cabecalho{
+    height: 70px;
+    padding: 25px;
+}
+.logo-cabecalho img{
+    height: 100%;
+     margin: 25px;
+}
+
+.container-input-radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     height: 85px;
+    padding-left: 50px;
+}
+
+.container-input-radio label{
+    color: #797979;
+    font-weight: bolder;
+}
+
+.container-input-radio input{
+    margin-right: 7px;
+    background: #D7D7D7;
+    border: 1px solid #6F6F6F;
+}
+
+.container-input-radio input{
+    -webkit-appearance: none; 
+    width: 10px;
+    height: 10px;
+    background-color:white;
+    transform: scale(2);
+    border: white solid 2px;
+    border-radius: 50%;
+}
+
+.container-input-radio input:checked{
+    background-color: 
+    #1790FA;
+}
+
+.conteiner-email-button{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 7px;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.conteiner-email-button input{
+    height: 50px;
+    border-radius: 7px;
+    border-style: hidden;
+    padding-left: 10px;
+}
+/* .conteiner-email-button input::placeholder{
+    padding-left: 10px;
+} */
+.botao-enviar{
+    height: 35px;
+    border-style: hidden;
+    background-color: #1790FA;
+    border-radius: 20px;
+    font-size: 1.0em;
+    color: #fff;
+}
