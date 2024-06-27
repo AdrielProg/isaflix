@@ -1,0 +1,20 @@
+@media(max-width: 600px){
+    .logo{
+        text-align: center;
+        /* box-sizing: content-box; */
+        height: 120px;
+        box-sizing: border-box;
+    }
+
+    .logo img{
+        margin-top: 55px;
+        height: 50%;
+    }
+    main{
+        height: 80vh;
+    }
+    .container-login {
+        background-color: rgb(0, 0, 0, 0.85);
+        width: 95%;
+    }
+}
